@@ -1,0 +1,37 @@
+/* .navbar{
+  margin-top: 30px;
+} */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: snow !important;
+}
+
+.fa-github {
+  font-size: 40px;
+}
+
+.navbar-toggler{
+  padding: 1px 6px !important;
+}
+
+.remove-btn{
+  margin-right: 0.5rem;
+}
+
+.fade-enter{
+  opacity: 0;
+}
+
+.fade-enter-active{
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit{
+  opacity: 1;
+}
+
+.fade-exit-active{
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
