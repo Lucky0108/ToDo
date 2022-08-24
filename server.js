@@ -11,7 +11,7 @@ app.use(express.json());
 const db = config.get("mongoURI");
 
 mongoose.connect(db, {useUnifiedTopology: true, useNewUrlParser:true})
-        .then(() => console.log("MongoDB Connected..."))
+        .then(() => console.log("MongoDB Database is Connected..."))
         .catch(err => console.log(err));
 
 // Use Routes
