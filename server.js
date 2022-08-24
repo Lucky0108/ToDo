@@ -11,7 +11,7 @@ app.use(express.json());
 const db = config.get("mongoURI");
 
 mongoose.connect(db, {useUnifiedTopology: true, useNewUrlParser:true})
-        .then(() => console.log("MongoDB Database is connected With jenkin server now..."))
+        .then(() => console.log("Okay So If jenkin works this will be updated"))
         .catch(err => console.log(err));
 
 // Use Routes
