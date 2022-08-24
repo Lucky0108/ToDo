@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 const db = config.get("mongoURI");
-
+console.log("I am Just adding this to see if it will work on the VM");
 mongoose.connect(db, {useUnifiedTopology: true, useNewUrlParser:true})
         .then(() => console.log("Okay So If jenkin works this will be updated"))
         .catch(err => console.log(err));
